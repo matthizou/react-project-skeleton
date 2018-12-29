@@ -8,6 +8,7 @@ const htmlPlugin = new HtmlWebPackPlugin({
 process.env.NODE_ENV = 'development'
 
 module.exports = {
+  mode: 'development',
   module: {
     rules: [
       {
