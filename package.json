@@ -1,0 +1,47 @@
+{
+  "name": "react-project-skeleton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/matthizou/react-project-skeleton.git",
+  "author": "Matt <matthizou@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "^7.0.0",
+    "css-loader": "^2.1.0",
+    "eslint": "^5.11.1",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.15.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-testing-library": "^5.4.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "eslintConfig": {
+    "extends": "./config/eslint/eslint.config.js"
+  },
+  "dependencies": {
+    "minireset.css": "^0.0.3",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-thunk-fsa": "^4.0.1",
+    "reselect": "^4.0.0",
+    "styled-components": "^4.1.3"
+  }
+}
